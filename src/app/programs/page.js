@@ -126,7 +126,7 @@ export default function Programs() {
 
       <main className="why-bro-section" style={{ paddingTop: "10rem" }}>
         <div className="section-header reveal-item">
-          <span className="section-badge" style={{ color: "#00f5d4" }}>SCHOOL OF NEUROSCIENCE</span>
+          <span className="section-badge" style={{ color: "var(--accent-teal)" }}>SCHOOL OF NEUROSCIENCE</span>
           <h1 className="section-title" style={{ fontSize: "clamp(2rem, 5vw, 3.8rem)", marginBottom: "1rem" }}>Future-Ready Curricula</h1>
           <p className="section-subtitle">Combining computational biology, laboratory experiments, and clinical instrumentation. Built to cultivate pioneers.</p>
         </div>
@@ -143,9 +143,9 @@ export default function Programs() {
             style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: "2rem", minHeight: "auto", padding: "3.5rem" }}
           >
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              <div className="r-badge" style={{ color: "#00f5d4" }}><Brain /></div>
+              <div className="r-badge" style={{ color: "var(--accent-teal)" }}><Brain /></div>
               <h3 className="bento-card-title">B.Sc. Cognitive Science</h3>
-              <span className="soon-badge" style={{ background: "rgba(0, 245, 212, 0.1)", color: "#00f5d4", border: "1px solid rgba(0, 245, 212, 0.2)", alignSelf: "flex-start" }}>4 Year Bachelors</span>
+              <span className="soon-badge" style={{ background: "var(--accent-teal-bg)", color: "var(--accent-teal)", border: "1px solid var(--accent-teal-border)", alignSelf: "flex-start" }}>4 Year Bachelors</span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <p className="bento-card-text" style={{ maxWidth: "none" }}>An immersive program bridging classical biology with algorithmic modeling. Students study neural cortex chemistry, signal pathways, and neuromorphic code blocks.</p>
@@ -168,9 +168,9 @@ export default function Programs() {
             style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: "2rem", minHeight: "auto", padding: "3.5rem" }}
           >
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              <div className="r-badge" style={{ color: "#00f5d4" }}><Dna /></div>
+              <div className="r-badge" style={{ color: "var(--accent-teal)" }}><Dna /></div>
               <h3 className="bento-card-title">M.Sc. Neural Engineering</h3>
-              <span className="soon-badge" style={{ background: "rgba(0, 245, 212, 0.1)", color: "#00f5d4", border: "1px solid rgba(0, 245, 212, 0.2)", alignSelf: "flex-start" }}>2 Year Masters</span>
+              <span className="soon-badge" style={{ background: "var(--accent-teal-bg)", color: "var(--accent-teal)", border: "1px solid var(--accent-teal-border)", alignSelf: "flex-start" }}>2 Year Masters</span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <p className="bento-card-text" style={{ maxWidth: "none" }}>Focused entirely on designing, constructing, and testing physical interfaces between living neurons and computer processors. Emphasizes signal processing and microelectrode arrays.</p>
@@ -193,9 +193,9 @@ export default function Programs() {
             style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: "2rem", minHeight: "auto", padding: "3.5rem" }}
           >
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              <div className="r-badge" style={{ color: "#00f5d4" }}><Activity /></div>
+              <div className="r-badge" style={{ color: "var(--accent-teal)" }}><Activity /></div>
               <h3 className="bento-card-title">Ph.D. Neuroinformatics</h3>
-              <span className="soon-badge" style={{ background: "rgba(0, 245, 212, 0.1)", color: "#00f5d4", border: "1px solid rgba(0, 245, 212, 0.2)", alignSelf: "flex-start" }}>Research Doctorate</span>
+              <span className="soon-badge" style={{ background: "var(--accent-teal-bg)", color: "var(--accent-teal)", border: "1px solid var(--accent-teal-border)", alignSelf: "flex-start" }}>Research Doctorate</span>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <p className="bento-card-text" style={{ maxWidth: "none" }}>Original, thesis-driven research modeling biological memory arrays, neural networking substrates, and next-gen computational architectures inspired by structural organic synapse dynamics.</p>

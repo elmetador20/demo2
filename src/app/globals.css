@@ -18,19 +18,16 @@
     --grid-color: rgba(233, 233, 234, 0.04);
     --btn-secondary-bg: rgba(255, 255, 255, 0.03);
 
-    /* Clean, Professional Accent Palette (Replaced Red with Indigo-Blue) */
+    /* Clean, Professional Accent Palette */
     --accent-red: #3b82f6;
-    /* Swapped signature red for simple electric blue */
     --accent-green: #10b981;
-    /* Clean emerald green */
     --accent-yellow: #f59e0b;
-    /* Clean amber/yellow */
     --accent-blue: #0ea5e9;
-    /* Clean sky blue */
     --accent-purple: #6366f1;
-    /* Clean indigo/purple */
     --accent-pink: #ec4899;
-    /* Clean pink */
+    --accent-teal: #00f5d4;
+    --accent-teal-bg: rgba(0, 245, 212, 0.1);
+    --accent-teal-border: rgba(0, 245, 212, 0.2);
 
     --accent-primary: var(--accent-red);
     --accent-secondary: var(--accent-blue);
@@ -42,21 +39,25 @@
     --transition-elastic: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Light Theme Variables */
+/* Light Theme Variables (Eye-friendly, professional, high contrast) */
 body.light-theme {
     --bg-color: #FBFAF4;
-    /* mew.xyz cream/off-white background */
     --text-color: #070612;
-    /* mew.xyz dark slate text */
-    --text-secondary: #9ca3af;
-    --card-bg: #e9e9ea;
-    /* mew.xyz iron gray */
-    --border-color: rgba(7, 6, 18, 0.12);
-    --grid-color: rgba(7, 6, 18, 0.06);
-    --btn-secondary-bg: rgba(7, 6, 18, 0.03);
+    --text-secondary: #535260;
+    --card-bg: rgba(7, 6, 18, 0.04);
+    --border-color: rgba(7, 6, 18, 0.08);
+    --grid-color: rgba(7, 6, 18, 0.03);
+    --btn-secondary-bg: rgba(7, 6, 18, 0.02);
 
-    --accent-yellow: #eba602;
-    --accent-blue: #3abcca;
+    --accent-red: #1d4ed8;
+    --accent-green: #065f46;
+    --accent-yellow: #b45309;
+    --accent-blue: #0369a1;
+    --accent-purple: #5b21b6;
+    --accent-pink: #be185d;
+    --accent-teal: #0f766e;
+    --accent-teal-bg: rgba(15, 118, 110, 0.08);
+    --accent-teal-border: rgba(15, 118, 110, 0.15);
 }
 
 /* Reset and Core Layout */

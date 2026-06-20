@@ -135,7 +135,7 @@ export default function Research() {
           <SynapticNetwork3D />
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", background: "radial-gradient(ellipse at center, transparent 30%, var(--bg-color) 90%)", pointerEvents: "none" }} />
           <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", textAlign: "center", zIndex: 10 }}>
-            <span className="section-badge" style={{ color: "#00f5d4" }}>NEURAL INTELLIGENCE NODE</span>
+            <span className="section-badge" style={{ color: "var(--accent-teal)" }}>NEURAL INTELLIGENCE NODE</span>
             <h1 style={{ fontSize: "2.4rem", fontFamily: "Space Grotesk, sans-serif", fontWeight: 700 }}>Active Labs & Discoveries</h1>
           </div>
         </div>
@@ -154,7 +154,7 @@ export default function Research() {
             onMouseLeave={(e) => { handleCardReset(e.currentTarget); handleMouseLeave(); }}
             onMouseEnter={() => handleMouseEnter("HEALTH")}
           >
-            <div className="r-badge" style={{ color: "#00f5d4" }}><Activity /></div>
+            <div className="r-badge" style={{ color: "var(--accent-teal)" }}><Activity /></div>
             <h3 className="r-title">AI Healthcare Systems</h3>
             <p className="r-desc">Developing predictive deep learning algorithms to optimize clinical diagnosis pathways and medical resource distribution.</p>
             <div className="card-spotlight"></div>
@@ -166,7 +166,7 @@ export default function Research() {
             onMouseLeave={(e) => { handleCardReset(e.currentTarget); handleMouseLeave(); }}
             onMouseEnter={() => handleMouseEnter("INFO")}
           >
-            <div className="r-badge" style={{ color: "#00f5d4" }}><Network /></div>
+            <div className="r-badge" style={{ color: "var(--accent-teal)" }}><Network /></div>
             <h3 className="r-title">Neuro Information Systems</h3>
             <p className="r-desc">Mapping complex multi-channel cognitive signals to construct computational neural informatics protocols.</p>
             <div className="card-spotlight"></div>
@@ -178,7 +178,7 @@ export default function Research() {
             onMouseLeave={(e) => { handleCardReset(e.currentTarget); handleMouseLeave(); }}
             onMouseEnter={() => handleMouseEnter("MED")}
           >
-            <div className="r-badge" style={{ color: "#00f5d4" }}><ShieldAlert /></div>
+            <div className="r-badge" style={{ color: "var(--accent-teal)" }}><ShieldAlert /></div>
             <h3 className="r-title">Neuropathic Pain Research</h3>
             <p className="r-desc">Targeting neural pathways and synaptic modeling systems to formulate advanced pain reduction therapies.</p>
             <div className="card-spotlight"></div>
@@ -190,7 +190,7 @@ export default function Research() {
             onMouseLeave={(e) => { handleCardReset(e.currentTarget); handleMouseLeave(); }}
             onMouseEnter={() => handleMouseEnter("SILICON")}
           >
-            <div className="r-badge" style={{ color: "#00f5d4" }}><Cpu /></div>
+            <div className="r-badge" style={{ color: "var(--accent-teal)" }}><Cpu /></div>
             <h3 className="r-title">Semiconductor Innovation</h3>
             <p className="r-desc">Architecting sub-nm nodes, neuromorphic transistor grids, and quantum dot compute accelerators.</p>
             <div className="card-spotlight"></div>
@@ -202,7 +202,7 @@ export default function Research() {
             onMouseLeave={(e) => { handleCardReset(e.currentTarget); handleMouseLeave(); }}
             onMouseEnter={() => handleMouseEnter("CPU")}
           >
-            <div className="r-badge" style={{ color: "#00f5d4" }}><Terminal /></div>
+            <div className="r-badge" style={{ color: "var(--accent-teal)" }}><Terminal /></div>
             <h3 className="r-title">Human-Machine Intelligence</h3>
             <p className="r-desc">Cultivating direct physical interfaces linking biological synaptic networks to digital microprocessors.</p>
             <div className="card-spotlight"></div>
@@ -219,9 +219,9 @@ export default function Research() {
           style={{ marginTop: "3rem", display: "grid", gridTemplateColumns: "1fr 2fr", gap: "2rem", minHeight: "auto", padding: "3rem" }}
         >
           <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-            <TrendingUp className="bento-icon" style={{ color: "#00f5d4" }} />
+            <TrendingUp className="bento-icon" style={{ color: "var(--accent-teal)" }} />
             <h3 className="bento-card-title">Venture Incubator</h3>
-            <span className="soon-badge" style={{ background: "rgba(0, 245, 212, 0.1)", color: "#00f5d4", border: "1px solid rgba(0, 245, 212, 0.2)", alignSelf: "flex-start" }}>Translational Launch</span>
+            <span className="soon-badge" style={{ background: "var(--accent-teal-bg)", color: "var(--accent-teal)", border: "1px solid var(--accent-teal-border)", alignSelf: "flex-start" }}>Translational Launch</span>
           </div>
           <div>
             <p className="bento-card-text" style={{ maxWidth: "none", marginBottom: "1.5rem" }}>

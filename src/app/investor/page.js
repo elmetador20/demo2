@@ -131,14 +131,14 @@ export default function Investor() {
             <ArrowLeft style={{ width: "16px" }} /> Back to Homepage
           </Link>
           <div className="section-header">
-            <span className="section-badge" style={{ color: "#00f5d4" }}>STRATEGIC ROADMAP</span>
+            <span className="section-badge" style={{ color: "var(--accent-teal)" }}>STRATEGIC ROADMAP</span>
             <h1 className="section-title" style={{ fontSize: "clamp(2.2rem, 6vw, 4.2rem)", lineHeight: "1.05" }}>
               The Story of <span className="gradient-text">BRO University</span>
             </h1>
             <p className="section-subtitle">Scroll down to meet our neurological model guides and explore the phased launch timeline.</p>
             <div style={{ marginTop: "1.5rem", color: "var(--text-secondary)", display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
               <span style={{ fontSize: "0.8rem", letterSpacing: "0.1em" }}>SCROLL TO DECODE</span>
-              <ArrowDown className="spin-slow" style={{ width: "18px", color: "#00f5d4" }} />
+              <ArrowDown className="spin-slow" style={{ width: "18px", color: "var(--accent-teal)" }} />
             </div>
           </div>
         </section>
@@ -153,26 +153,26 @@ export default function Investor() {
             <div className="story-phase-0" style={{ position: "absolute", top: 0, left: 0, width: "100%", display: "flex", flexDirection: "column", gap: "2rem" }}>
               {/* Custom Vector Cartoon Avatar of Dr. Neurite designed from scratch */}
               <div style={{ display: "flex", alignItems: "center", gap: "1.5rem" }}>
-                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ filter: "drop-shadow(0 0 12px rgba(0, 245, 212, 0.3))" }}>
-                  <rect width="72" height="72" rx="36" fill="rgba(0, 245, 212, 0.1)" stroke="#00f5d4" strokeWidth="2"/>
+                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ filter: "drop-shadow(0 0 12px var(--accent-teal-border))" }}>
+                  <rect width="72" height="72" rx="36" fill="var(--accent-teal-bg)" stroke="var(--accent-teal)" strokeWidth="2"/>
                   {/* Scientist Goggles */}
                   <rect x="18" y="24" width="16" height="12" rx="4" fill="none" stroke="var(--text-color)" strokeWidth="2"/>
                   <rect x="38" y="24" width="16" height="12" rx="4" fill="none" stroke="var(--text-color)" strokeWidth="2"/>
                   <line x1="34" y1="30" x2="38" y2="30" stroke="var(--text-color)" strokeWidth="2"/>
                   {/* Glowing synapses on head */}
-                  <circle cx="36" cy="14" r="3" fill="#00f5d4"/>
-                  <path d="M 36 17 L 36 20 M 24 20 L 28 23 M 48 20 L 44 23" stroke="#00f5d4" strokeWidth="1.5"/>
+                  <circle cx="36" cy="14" r="3" fill="var(--accent-teal)"/>
+                  <path d="M 36 17 L 36 20 M 24 20 L 28 23 M 48 20 L 44 23" stroke="var(--accent-teal)" strokeWidth="1.5"/>
                   {/* Smile */}
                   <path d="M 30 46 Q 36 50 42 46" stroke="var(--text-color)" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
                 <div>
-                  <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 700, color: "#00f5d4" }}>Dr. Neurite</h4>
+                  <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 700, color: "var(--accent-teal)" }}>Dr. Neurite</h4>
                   <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)" }}>School of Neuroscience Lead</p>
                 </div>
               </div>
 
-              <div className="bento-card" style={{ padding: "2.5rem", height: "auto", background: "rgba(0, 245, 212, 0.03)", border: "1px solid rgba(0, 245, 212, 0.15)" }}>
-                <span className="soon-badge" style={{ background: "rgba(0, 245, 212, 0.1)", color: "#00f5d4", border: "1px solid rgba(0, 245, 212, 0.2)", alignSelf: "flex-start", marginBottom: "1rem", display: "inline-block" }}>
+              <div className="bento-card" style={{ padding: "2.5rem", height: "auto", background: "var(--accent-teal-bg)", border: "1px solid var(--accent-teal-border)" }}>
+                <span className="soon-badge" style={{ background: "var(--accent-teal-bg)", color: "var(--accent-teal)", border: "1px solid var(--accent-teal-border)", alignSelf: "flex-start", marginBottom: "1rem", display: "inline-block" }}>
                   PHASE 1 - FOUNDATION ACTIVE
                 </span>
                 <p style={{ lineHeight: "1.7", color: "var(--text-color)" }}>
