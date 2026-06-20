@@ -185,7 +185,7 @@ export default function Admissions() {
             ) : (
               <div style={{ textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5rem" }}>
                 <CheckCircle style={{ width: "64px", height: "64px", color: "var(--accent-teal)" }} />
-                <h2 style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 700 }}>Inquiry Successfully Logged</h2>
+                <h2 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700 }}>Inquiry Successfully Logged</h2>
                 <p style={{ color: "var(--text-secondary)", maxWidth: "500px" }}>Welcome to the core. Our academic admissions panel will review your credentials and contact you within 24 hours.</p>
                 <button 
                   onClick={() => setIsFormSubmitted(false)}

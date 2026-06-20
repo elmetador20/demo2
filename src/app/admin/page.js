@@ -151,7 +151,7 @@ export default function AdminDashboard() {
           <div className="bento-card bento-w2" style={{ padding: "3rem", height: "auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "2rem" }}>
             <div>
               <span className="logo-accent" style={{ color: "var(--accent-teal)", fontSize: "1.2rem", fontWeight: 800 }}>BRO</span>
-              <h1 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "2rem", fontWeight: 700 }}>Academic Intelligence Core</h1>
+              <h1 style={{ fontFamily: "Outfit, sans-serif", fontSize: "2rem", fontWeight: 700 }}>Academic Intelligence Core</h1>
               <p style={{ color: "var(--text-secondary)", fontSize: "0.9rem" }}>Real-time student applicant tracking & strategic investor leads pipeline.</p>
             </div>
             <div style={{ display: "flex", gap: "1rem" }}>

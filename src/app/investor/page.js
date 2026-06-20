@@ -166,7 +166,7 @@ export default function Investor() {
                   <path d="M 30 46 Q 36 50 42 46" stroke="var(--text-color)" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
                 <div>
-                  <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 700, color: "var(--accent-teal)" }}>Dr. Neurite</h4>
+                  <h4 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, color: "var(--accent-teal)" }}>Dr. Neurite</h4>
                   <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)" }}>School of Neuroscience Lead</p>
                 </div>
               </div>
@@ -199,7 +199,7 @@ export default function Investor() {
                   <path d="M 32 38 L 40 38" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
                 <div>
-                  <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 700, color: "#9b5de5" }}>A.I. Bro</h4>
+                  <h4 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, color: "#9b5de5" }}>A.I. Bro</h4>
                   <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)" }}>School of AI Specialist</p>
                 </div>
               </div>
@@ -233,7 +233,7 @@ export default function Investor() {
                   <path d="M 31 38 Q 36 43 41 38" stroke="#f15bb5" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
                 <div>
-                  <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 700, color: "#f15bb5" }}>Silicon Bro</h4>
+                  <h4 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, color: "#f15bb5" }}>Silicon Bro</h4>
                   <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)" }}>Semiconductor Lead</p>
                 </div>
               </div>

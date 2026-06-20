@@ -737,7 +737,7 @@ export default function Home() {
                   >
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: "4rem" }}>
                       <div>
-                        <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Core Cleanrooms</h4>
+                        <h4 style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Core Cleanrooms</h4>
                         <ul style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", listStyle: "none", padding: 0 }}>
                           <li style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: 500, color: "var(--text-secondary)" }}><span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--accent-blue)" }} /> Wet Chemistry Lab</li>
                           <li style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: 500, color: "var(--text-secondary)" }}><span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--accent-blue)" }} /> Class 100 Cleanroom</li>
@@ -746,7 +746,7 @@ export default function Home() {
                         </ul>
                       </div>
                       <div>
-                        <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Ventures & IP Spinouts</h4>
+                        <h4 style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Ventures & IP Spinouts</h4>
                         <p style={{ fontSize: "0.95rem", lineHeight: "1.6", color: "var(--text-secondary)" }}>
                           Undergraduates hold shared equity on microchip patents filed during university residency. We accelerate from discovery to international deep-tech commercialization.
                         </p>
@@ -790,7 +790,7 @@ export default function Home() {
                   >
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: "4rem" }}>
                       <div>
-                        <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Academics & Labs</h4>
+                        <h4 style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Academics & Labs</h4>
                         <ul style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", listStyle: "none", padding: 0 }}>
                           <li style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: 500, color: "var(--text-secondary)" }}><span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--accent-blue)" }} /> Neuroinformatics</li>
                           <li style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: 500, color: "var(--text-secondary)" }}><span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--accent-blue)" }} /> Solid-State Buses</li>
@@ -799,7 +799,7 @@ export default function Home() {
                         </ul>
                       </div>
                       <div>
-                        <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Industry Integration</h4>
+                        <h4 style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Industry Integration</h4>
                         <p style={{ fontSize: "0.95rem", lineHeight: "1.6", color: "var(--text-secondary)" }}>
                           We partner directly with leading semiconductor fabs and neural interfaces companies to structure a workspace-ready curriculum from day one.
                         </p>
@@ -843,7 +843,7 @@ export default function Home() {
                   >
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: "4rem" }}>
                       <div>
-                        <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Ecosystem Nodes</h4>
+                        <h4 style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Ecosystem Nodes</h4>
                         <ul style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", listStyle: "none", padding: 0 }}>
                           <li style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: 500, color: "var(--text-secondary)" }}><span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--accent-blue)" }} /> Corporate Research Labs</li>
                           <li style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: 500, color: "var(--text-secondary)" }}><span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--accent-blue)" }} /> Pre-seed Venture Desk</li>
@@ -852,7 +852,7 @@ export default function Home() {
                         </ul>
                       </div>
                       <div>
-                        <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Startups Accelerator</h4>
+                        <h4 style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Startups Accelerator</h4>
                         <p style={{ fontSize: "0.95rem", lineHeight: "1.6", color: "var(--text-secondary)" }}>
                           We incubate research spin-outs with co-working spaces, equipment funding, and access to an extensive pool of pre-seed angel syndicates.
                         </p>
@@ -896,7 +896,7 @@ export default function Home() {
                   >
                     <div style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: "4rem" }}>
                       <div>
-                        <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Investment Matrix</h4>
+                        <h4 style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Investment Matrix</h4>
                         <ul style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", listStyle: "none", padding: 0 }}>
                           <li style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: 500, color: "var(--text-secondary)" }}><span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--accent-blue)" }} /> Venture Capital Access</li>
                           <li style={{ display: "flex", alignItems: "center", gap: "0.5rem", fontSize: "0.95rem", fontWeight: 500, color: "var(--text-secondary)" }}><span style={{ width: "6px", height: "6px", borderRadius: "50%", backgroundColor: "var(--accent-blue)" }} /> Patent Asset Licensing</li>
@@ -905,7 +905,7 @@ export default function Home() {
                         </ul>
                       </div>
                       <div>
-                        <h4 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Institutional Growth</h4>
+                        <h4 style={{ fontFamily: "Outfit, sans-serif", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.08em", color: "var(--accent-blue)", marginBottom: "1rem", textTransform: "uppercase" }}>Institutional Growth</h4>
                         <p style={{ fontSize: "0.95rem", lineHeight: "1.6", color: "var(--text-secondary)" }}>
                           By structuring our research centers as venture-backed intellectual property hubs, we ensure self-sustaining growth and long-term ecosystem returns.
                         </p>

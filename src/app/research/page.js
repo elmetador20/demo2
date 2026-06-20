@@ -136,7 +136,7 @@ export default function Research() {
           <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", background: "radial-gradient(ellipse at center, transparent 30%, var(--bg-color) 90%)", pointerEvents: "none" }} />
           <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", textAlign: "center", zIndex: 10 }}>
             <span className="section-badge" style={{ color: "var(--accent-teal)" }}>NEURAL INTELLIGENCE NODE</span>
-            <h1 style={{ fontSize: "2.4rem", fontFamily: "Space Grotesk, sans-serif", fontWeight: 700 }}>Active Labs & Discoveries</h1>
+            <h1 style={{ fontSize: "2.4rem", fontFamily: "Outfit, sans-serif", fontWeight: 700 }}>Active Labs & Discoveries</h1>
           </div>
         </div>
 
