@@ -129,8 +129,8 @@ export default function AdminDashboard() {
 
   return (
     <>
-      <div ref={cursorDotRef} className="cursor-dot" style={{ backgroundColor: "#00f5d4" }} />
-      <div ref={cursorRingRef} className="cursor-ring" style={{ borderColor: "#00f5d4" }} />
+      <div ref={cursorDotRef} className="cursor-dot" style={{ backgroundColor: "var(--accent-teal)" }} />
+      <div ref={cursorRingRef} className="cursor-ring" style={{ borderColor: "var(--accent-teal)" }} />
 
       <div className="why-bro-section" style={{ minHeight: "100vh", paddingTop: "4rem" }}>
         
@@ -139,7 +139,7 @@ export default function AdminDashboard() {
           <Link href="/" style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", color: "var(--text-secondary)", fontSize: "0.9rem" }}>
             <ArrowLeft style={{ width: "16px" }} /> Back to Homepage
           </Link>
-          <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", fontSize: "0.85rem", color: "#00f5d4" }}>
+          <div style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", fontSize: "0.85rem", color: "var(--accent-teal)" }}>
             <ShieldCheck style={{ width: "16px" }} /> Investor Panel Authorized
           </div>
         </div>
@@ -150,7 +150,7 @@ export default function AdminDashboard() {
           {/* Header */}
           <div className="bento-card bento-w2" style={{ padding: "3rem", height: "auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "2rem" }}>
             <div>
-              <span className="logo-accent" style={{ color: "#00f5d4", fontSize: "1.2rem", fontWeight: 800 }}>BRO</span>
+              <span className="logo-accent" style={{ color: "var(--accent-teal)", fontSize: "1.2rem", fontWeight: 800 }}>BRO</span>
               <h1 style={{ fontFamily: "Space Grotesk, sans-serif", fontSize: "2rem", fontWeight: 700 }}>Academic Intelligence Core</h1>
               <p style={{ color: "var(--text-secondary)", fontSize: "0.9rem" }}>Real-time student applicant tracking & strategic investor leads pipeline.</p>
             </div>
@@ -175,7 +175,7 @@ export default function AdminDashboard() {
               
               <div className="bento-card" style={{ padding: "2rem", height: "auto" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.8rem", marginBottom: "1rem" }}>
-                  <Users style={{ color: "#00f5d4" }} />
+                  <Users style={{ color: "var(--accent-teal)" }} />
                   <span style={{ fontSize: "0.8rem", color: "var(--text-secondary)", fontWeight: 600 }}>TOTAL APPLICANTS</span>
                 </div>
                 <div style={{ fontSize: "3rem", fontWeight: 700 }}>{leads.length}</div>
@@ -186,7 +186,7 @@ export default function AdminDashboard() {
                   <Activity style={{ color: "#9b5de5" }} />
                   <span style={{ fontSize: "0.8rem", color: "var(--text-secondary)", fontWeight: 600 }}>SYSTEM STATUS</span>
                 </div>
-                <div style={{ fontSize: "1.1rem", fontWeight: 600, color: "#00f5d4" }}>ONLINE / ACTIVE</div>
+                <div style={{ fontSize: "1.1rem", fontWeight: 600, color: "var(--accent-teal)" }}>ONLINE / ACTIVE</div>
                 <p style={{ fontSize: "0.8rem", color: "var(--text-secondary)", marginTop: "0.5rem" }}>Foundational Phase 1 running.</p>
               </div>
 
@@ -210,9 +210,9 @@ export default function AdminDashboard() {
                     key={tab}
                     onClick={() => setActiveTab(tab)}
                     style={{
-                      background: activeTab === tab ? "rgba(0,245,212,0.1)" : "transparent",
-                      color: activeTab === tab ? "#00f5d4" : "var(--text-secondary)",
-                      border: activeTab === tab ? "1px solid #00f5d4" : "1px solid transparent",
+                      background: activeTab === tab ? "var(--accent-teal-bg)" : "transparent",
+                      color: activeTab === tab ? "var(--accent-teal)" : "var(--text-secondary)",
+                      border: activeTab === tab ? "1px solid var(--accent-teal-border)" : "1px solid transparent",
                       padding: "0.5rem 1rem",
                       borderRadius: "6px",
                       fontSize: "0.85rem",
@@ -244,8 +244,8 @@ export default function AdminDashboard() {
                           <td style={{ padding: "1.2rem 0.5rem", color: "var(--text-secondary)" }}>{l.email}</td>
                           <td style={{ padding: "1.2rem 0.5rem" }}>
                             <span style={{ 
-                              background: l.field === "partner" ? "rgba(241,91,181,0.15)" : "rgba(0,245,212,0.1)",
-                              color: l.field === "partner" ? "#f15bb5" : "#00f5d4",
+                              background: l.field === "partner" ? "var(--accent-pink-bg)" : "var(--accent-teal-bg)",
+                              color: l.field === "partner" ? "var(--accent-pink)" : "var(--accent-teal)",
                               padding: "0.2rem 0.5rem",
                               borderRadius: "4px",
                               fontSize: "0.75rem",

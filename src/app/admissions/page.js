@@ -112,7 +112,7 @@ export default function Admissions() {
 
       <main className="why-bro-section" style={{ paddingTop: "10rem", minHeight: "100vh" }}>
         <div className="section-header reveal-item">
-          <span className="section-badge" style={{ color: "#00f5d4" }}>PHASE 1 INTAKE</span>
+          <span className="section-badge" style={{ color: "var(--accent-teal)" }}>PHASE 1 INTAKE</span>
           <h1 className="section-title" style={{ fontSize: "clamp(2rem, 5vw, 3.8rem)", marginBottom: "1rem" }}>Admissions & Inquiry</h1>
           <p className="section-subtitle">Register interest for our foundational School of Neuroscience programs or strategic partnership slots.</p>
         </div>
@@ -184,7 +184,7 @@ export default function Admissions() {
               </form>
             ) : (
               <div style={{ textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", gap: "1.5rem" }}>
-                <CheckCircle style={{ width: "64px", height: "64px", color: "#00f5d4" }} />
+                <CheckCircle style={{ width: "64px", height: "64px", color: "var(--accent-teal)" }} />
                 <h2 style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 700 }}>Inquiry Successfully Logged</h2>
                 <p style={{ color: "var(--text-secondary)", maxWidth: "500px" }}>Welcome to the core. Our academic admissions panel will review your credentials and contact you within 24 hours.</p>
                 <button 

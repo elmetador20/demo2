@@ -25,6 +25,8 @@
     --accent-blue: #0ea5e9;
     --accent-purple: #6366f1;
     --accent-pink: #ec4899;
+    --accent-pink-bg: rgba(236, 72, 153, 0.1);
+    --accent-pink-border: rgba(236, 72, 153, 0.2);
     --accent-teal: #00f5d4;
     --accent-teal-bg: rgba(0, 245, 212, 0.1);
     --accent-teal-border: rgba(0, 245, 212, 0.2);
@@ -55,6 +57,8 @@ body.light-theme {
     --accent-blue: #0369a1;
     --accent-purple: #5b21b6;
     --accent-pink: #be185d;
+    --accent-pink-bg: rgba(190, 24, 93, 0.08);
+    --accent-pink-border: rgba(190, 24, 93, 0.15);
     --accent-teal: #0f766e;
     --accent-teal-bg: rgba(15, 118, 110, 0.08);
     --accent-teal-border: rgba(15, 118, 110, 0.15);
